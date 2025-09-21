@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Card</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #0d47a1, #1976d2, #2196f3);
+      color: #333;
+    }
+    .card {
+      background: #fff;
+      max-width: 400px;
+      margin: 50px auto;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      padding: 20px;
+      text-align: center;
+    }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-top: -80px;
+      border: 4px solid #fff;
+      object-fit: cover;
+    }
+    h2 {
+      margin: 15px 0 5px;
+    }
+    h3 {
+      margin: 5px 0;
+      color: #555;
+      font-weight: normal;
+    }
+    p {
+      margin: 5px 0;
+      color: #777;
+    }
+    .info {
+      text-align: left;
+      margin-top: 20px;
+    }
+    .info p {
+      margin: 8px 0;
+      font-size: 14px;
+    }
+    .label {
+      font-weight: bold;
+      color: #000;
+    }
+    .buttons {
+      margin-top: 25px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    .btn {
+      padding: 10px 20px;
+      border-radius: 25px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+    }
+    .btn-whatsapp {
+      background-color: #25D366;
+    }
+    .btn-mail {
+      background-color: #0072C6;
+    }
+    .btn:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="your-photo.jpg" alt="Profile Picture" class="profile-pic">
+    <h2>DR / Amgad Kamel</h2>
+    <h3>Chairman & CEO</h3>
+    <p>ALAMEIN FOR SILICON PRODUCTS</p>
+
+    <div class="info">
+      <p><span class="label">Mobile:</span> 01003687280</p>
+      <p><span class="label">Tel:</span> 0223228160</p>
+      <p><span class="label">Fax:</span> 23228162</p>
+      <p><span class="label">E-mail:</span> Amgad-kamel@ASP-eg.org</p>
+    </div>
+
+    <div class="buttons">
+      <a href="https://wa.me/201003687280" target="_blank" class="btn btn-whatsapp">WhatsApp</a>
+      <a href="mailto:Amgad-kamel@ASP-eg.org" class="btn btn-mail">Send Mail</a>
+    </div>
+  </div>
+</body>
+</html>
